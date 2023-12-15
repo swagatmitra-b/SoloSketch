@@ -98,7 +98,7 @@ const Canvas = () => {
           ...prev,
           undo: [prev.undo[0]],
         }));
-    ctx.putImageData(prevState, 0, 0);
+    ctx.putImageData(prevState as ImageData, 0, 0);
   };
 
   const redoCanvas = () => {
@@ -109,7 +109,7 @@ const Canvas = () => {
     const nextState = redo[redo.length - undoCount];
     setPixelState({ ...pixelState, undo: pixelState.redo });
     if (undoCount > 0) setUndoCount(undoCount - 1);
-    ctx.putImageData(nextState, 0, 0);
+    ctx.putImageData(nextState as ImageData, 0, 0);
   };
 
   return (
