@@ -1,1 +1,1 @@
-#### The DuetSketch frontend, free of the websockets terror
+#### The DuetSketch frontend, free of socket shenanigans
