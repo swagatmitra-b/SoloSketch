@@ -8,7 +8,7 @@ const Clear = ({
   [key: string]: () => void;
 }) => {
   return (
-    <div className="absolute bottom-2 left-3">
+    <div className="absolute bottom-2 left-3 bg-white rounded-md px-2">
       <button onClick={undoCanvas} className="p-2">
         Undo
       </button>
