@@ -1,1 +1,1 @@
-#### The [DuetSketch](https://github.com/swagatmitra-b/duetsketch) frontend, free of socket shenanigans
+### The [DuetSketch](https://github.com/swagatmitra-b/duetsketch) frontend, without the socket shenanigans
