@@ -1,1 +1,1 @@
-#### A sketching app for you :)
+#### The DuetSketch frontend, free of the websockets terror
